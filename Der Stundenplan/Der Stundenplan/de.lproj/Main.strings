@@ -1,0 +1,65 @@
+
+
+/* Class = "UILabel"; text = "Server URL"; ObjectID = "9eW-PQ-Sz6"; */
+"9eW-PQ-Sz6.text" = "Server URL";
+
+/* Class = "UIButton"; normalTitle = "Anmelden"; ObjectID = "K3b-n0-yW2"; */
+"K3b-n0-yW2.normalTitle" = "Anmelden";
+
+/* Class = "UITextField"; placeholder = "+"; ObjectID = "Mfk-T6-PAa"; */
+"Mfk-T6-PAa.placeholder" = "Musterschule";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "NP2-vQ-j7V"; */
+"NP2-vQ-j7V.title" = "Login";
+
+/* Class = "UILabel"; text = "Benutzername"; ObjectID = "VPZ-b3-gyW"; */
+"VPZ-b3-gyW.text" = "Benutzername";
+
+/* Class = "UIViewController"; title = "Anmelden"; ObjectID = "bkK-j6-Amb"; */
+"bkK-j6-Amb.title" = "Anmelden";
+
+/* Class = "UILabel"; text = "Schule"; ObjectID = "cjV-bh-buQ"; */
+"cjV-bh-buQ.text" = "Schule";
+
+/* Class = "UIButton"; normalTitle = "Manuelle Eingabe"; ObjectID = "eSh-jp-qjk"; */
+"eSh-jp-qjk.normalTitle" = "Manuelle Eingabe";
+
+/* Class = "UITextField"; placeholder = "meine_schule"; ObjectID = "eed-Wd-X5R"; */
+"eed-Wd-X5R.placeholder" = "meine_schule";
+
+/* Class = "UINavigationItem"; title = "Schule suchen"; ObjectID = "g7y-2f-gmX"; */
+"g7y-2f-gmX.title" = "Schule suchen";
+
+/* Class = "UILabel"; text = "Passwort"; ObjectID = "gKt-S6-LNt"; */
+"gKt-S6-LNt.text" = "Passwort";
+
+/* Class = "UIButton"; normalTitle = "Weiter zur Anmeldung"; ObjectID = "iyT-Ew-M2g"; */
+"iyT-Ew-M2g.normalTitle" = "Weiter zur Anmeldung";
+
+/* Class = "UILabel"; text = "Name oder Adresse der Schule"; ObjectID = "ng0-dD-BfL"; */
+"ng0-dD-BfL.text" = "Name oder Adresse der Schule";
+
+/* Class = "UIViewController"; title = "Manuelle Eingabe"; ObjectID = "okL-H6-mB8"; */
+"okL-H6-mB8.title" = "Manuelle Eingabe";
+
+/* Class = "UITextField"; placeholder = "abcd.webuntis.com"; ObjectID = "ub6-B5-1mh"; */
+"ub6-B5-1mh.placeholder" = "abcd.webuntis.com";
+
+"eag-tv-DVQ.text" = "Entwickler";
+
+"PJ6-Zd-0wx.text" = "Stundenplan Software";
+
+"GvH-vf-ohf.header" = "Hilfe";
+
+"yKj-aj-iAH.text" = "Wie melde ich mich an?";
+
+"bxB-R2-MlS.text" = "Ich habe mein Passwort vergessen.";
+
+"WAe-GD-Fkn.text" = "Mir wird nichts angezeigt.";
+
+"Dwq-00-fG9.text" = "Lizenzen";
+
+"Qwj-EN-anN.title" = "Lizenzen";
+
+"Ook-pD-A7W.text" = "⚠️ Fehler: Login nicht gefunden";
+

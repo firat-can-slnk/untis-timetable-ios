@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch44" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Der_Stundenplan_Watch" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Fri, 22. Okt. 2019" minimumScaleFactor="0.5" id="VSC-H1-NfW">
+                            <fontDescription key="font" type="system" weight="medium" pointSize="22"/>
+                        </label>
+                        <table alignment="left" id="w8m-AI-dFg">
+                            <items>
+                                <tableRow identifier="CustomRowController" selectable="NO" id="8x8-qo-DLi" customClass="CustomRowController" customModule="Der_Stundenplan_Watch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" animationDuration="2" layout="vertical" spacing="3" id="Z0q-CD-M1d">
+                                        <items>
+                                            <label alignment="left" text="Fach" numberOfLines="3" minimumScaleFactor="0.5" id="THY-1i-omJ">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                            <label alignment="left" text="Uhrzeit" numberOfLines="3" minimumScaleFactor="0.5" id="lrs-AT-kFW"/>
+                                            <label alignment="left" text="Lehrer" numberOfLines="3" minimumScaleFactor="0.5" id="tC1-x4-ISm"/>
+                                            <label alignment="left" text="Raum" numberOfLines="3" minimumScaleFactor="0.5" id="dP0-5x-jSq"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="FachLabel" destination="THY-1i-omJ" id="vHf-ed-e6y"/>
+                                        <outlet property="LehrerLabel" destination="tC1-x4-ISm" id="xC6-ed-A8T"/>
+                                        <outlet property="RaumLabel" destination="dP0-5x-jSq" id="3PC-3T-mVp"/>
+                                        <outlet property="UhrzeitLabel" destination="lrs-AT-kFW" id="HxR-Bq-qO3"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="DatumLabel" destination="VSC-H1-NfW" id="1I2-6j-YhX"/>
+                        <outlet property="myTable" destination="w8m-AI-dFg" id="peQ-VJ-Z6f"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Der_Stundenplan_Watch" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Der_Stundenplan_Watch" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+    </scenes>
+</document>

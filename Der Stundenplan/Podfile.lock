@@ -1,0 +1,28 @@
+PODS:
+  - EasyAnimation (2.2.1)
+  - JZCalendarWeekView (0.7.1)
+  - SwiftDate (5.1.0)
+  - SwiftKeychainWrapper (4.0.1)
+
+DEPENDENCIES:
+  - EasyAnimation
+  - JZCalendarWeekView (~> 0.7.0)
+  - SwiftDate (~> 5.0)
+  - SwiftKeychainWrapper
+
+SPEC REPOS:
+  trunk:
+    - EasyAnimation
+    - JZCalendarWeekView
+    - SwiftDate
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  EasyAnimation: 226d133d23ef0ef99ddfb8928ff2a9a4a77d1cfd
+  JZCalendarWeekView: 586a429ab3fbeef4f98d648ea6b801f57c5495cc
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+
+PODFILE CHECKSUM: bffc8549ce48e07a827ccd7245ca527711ef214a
+
+COCOAPODS: 1.10.0

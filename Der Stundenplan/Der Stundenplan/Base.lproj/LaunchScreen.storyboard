@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2019 Firat-Can Sülünkü " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH3-dx-7Aa">
+                                <rect key="frame" x="101" y="642" width="173" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="qNA-jn-qQ2">
+                                <rect key="frame" x="105.5" y="251.5" width="164" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="acr-HP-PBP"/>
+                                    <constraint firstAttribute="height" constant="164" id="cpf-ct-5T9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GH3-dx-7Aa" secondAttribute="bottom" constant="8" id="5lK-rf-j2X"/>
+                            <constraint firstItem="qNA-jn-qQ2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QLq-PF-GFD"/>
+                            <constraint firstItem="GH3-dx-7Aa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cT3-Od-7Ti"/>
+                            <constraint firstItem="qNA-jn-qQ2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hmI-RC-gai"/>
+                            <constraint firstItem="GH3-dx-7Aa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pdW-Bp-TEa"/>
+                            <constraint firstItem="GH3-dx-7Aa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="rGl-9c-qon"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.600000000000001" y="282.90854572713647"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo transparent.png" width="768" height="768"/>
+    </resources>
+</document>
