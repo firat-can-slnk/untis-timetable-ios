@@ -1,0 +1,57 @@
+Webuntis\Models\Substitutions:
+    repositoryClass: Webuntis\Repositories\SubstitutionsRepository
+    fields:
+        startTime:
+            type: mergeTimeAndDate
+            api:
+                time: startTime
+                date: date
+        endTime:
+            type: mergeTimeAndDate
+            api:
+                time: endTime
+                date: date
+        classes:
+            type: modelCollection
+            api:
+                name: kl
+                searchkey: id
+            model:
+                name: Classes
+                searchkey: id
+        teachers:
+            type: modelCollection
+            api:
+                name: te
+                searchkey: id
+            model:
+                name: Teachers
+                searchkey: id
+        subjects:
+            type: modelCollection
+            api:
+                name: su
+                searchkey: id
+            model:
+                name: Subjects
+                searchkey: id
+        rooms:
+            type: modelCollection
+            api:
+                name: ro
+                searchkey: id
+            model:
+                name: Rooms
+                searchkey: id
+        lesson:
+            type: string
+            api:
+                name: lsid
+        type:
+            type: string
+            api:
+                name: type
+        text:
+            type: string
+            api:
+                name: text

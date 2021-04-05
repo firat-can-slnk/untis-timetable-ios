@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Der Stundenplan/Pods-Der Stundenplan-frameworks.sh
+${BUILT_PRODUCTS_DIR}/EasyAnimation/EasyAnimation.framework
+${BUILT_PRODUCTS_DIR}/JZCalendarWeekView/JZCalendarWeekView.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
+${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework

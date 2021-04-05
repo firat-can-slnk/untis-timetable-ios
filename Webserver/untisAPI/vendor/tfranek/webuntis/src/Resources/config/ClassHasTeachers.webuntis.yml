@@ -1,0 +1,19 @@
+Webuntis\Models\ClassHasTeachers:
+    repositoryClass: Webuntis\Repositories\ClassHasTeachersRepository
+    fields:
+        name:
+            type: string
+            api:
+                name: name
+        fullName:
+            type: string
+            api:
+                name: fullName
+        teachers:
+            type: modelCollection
+            api:
+                name: teachers
+                searchkey: id
+            model:
+                name: Teachers
+                searchkey: id

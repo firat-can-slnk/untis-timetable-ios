@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Der Stundenplan
+
+  Created by Firat Sülünkü on 14.03.19.
+  Copyright © 2019 Firat Sülünkü. All rights reserved.
+*/
+
+"SchoolInfo" = "Wenn deine Schule nicht in der Datenbank zu finden ist, kannst du die Server URL und den Namen deiner Schule hier manuell eintragen.";
+"Timetable" = "Stundenplan";
+"Open Source Licenses" = "Open Source Lizenzen";
+"Developer" = "Entwickler";
+"Error" = "Fehler";
+"No internet connection" = "Keine Internetverbindung";
+
+"How do I sign in?" = "Wie melde ich mich an?";
+
+"After you have chosen your school you have to login. You will receive your registration data from your school." = "Nachdem du deine Schule ausgewählt hast musst du dich anmelden. Deine Anmeldedaten bekommst du von deiner Schule.";
+
+"I forgot my password." = "Ich habe mein Passwort vergessen.";
+
+"You can change your password on the WebUntis page of your school." = "Dein Passwort kannst du auf der WebUntis Seite deiner Schule ändern.";
+
+"Nothing is displayed." = "Mir wird nichts angezeigt.";
+
+"This may be because your user was not set up correctly or your school has not yet added lessons for the upcoming school year." = "Das kann daran liegen, dass dein Benutzer nicht korrekt eingerichtet wurde oder deine Schule noch nichts für das kommende Schuljahr eingetragen hat.";
+
+"There is nothing for today." = "Für heute steht nichts an.";
+
+"Please log in first."="Bitte melde dich zuerst an.";

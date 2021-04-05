@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Schulname"; ObjectID = "8HE-so-in9"; */
+"8HE-so-in9.text" = "Schulname";
+
+/* Class = "UILabel"; text = "Server URL"; ObjectID = "9eW-PQ-Sz6"; */
+"9eW-PQ-Sz6.text" = "Server URL";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "K3b-n0-yW2"; */
+"K3b-n0-yW2.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Sample School"; ObjectID = "Mfk-T6-PAa"; */
+"Mfk-T6-PAa.placeholder" = "Sample School";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "NP2-vQ-j7V"; */
+"NP2-vQ-j7V.title" = "Login";
+
+/* Class = "UILabel"; text = "PLZ Stadt, Straße Hausnr"; ObjectID = "Tc3-jA-7y0"; */
+"Tc3-jA-7y0.text" = "PLZ Stadt, Straße Hausnr";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "VPZ-b3-gyW"; */
+"VPZ-b3-gyW.text" = "Username";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "bkK-j6-Amb"; */
+"bkK-j6-Amb.title" = "Login";
+
+/* Class = "UILabel"; text = "School"; ObjectID = "cjV-bh-buQ"; */
+"cjV-bh-buQ.text" = "School";
+
+/* Class = "UIButton"; normalTitle = "Manual input"; ObjectID = "eSh-jp-qjk"; */
+"eSh-jp-qjk.normalTitle" = "Manual input";
+
+/* Class = "UITextField"; placeholder = "my_school"; ObjectID = "eed-Wd-X5R"; */
+"eed-Wd-X5R.placeholder" = "my_school";
+
+/* Class = "UINavigationItem"; title = "Search school"; ObjectID = "g7y-2f-gmX"; */
+"g7y-2f-gmX.title" = "Search school";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "gKt-S6-LNt"; */
+"gKt-S6-LNt.text" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Continue to login"; ObjectID = "iyT-Ew-M2g"; */
+"iyT-Ew-M2g.normalTitle" = "Continue to login";
+
+/* Class = "UILabel"; text = "Name or adress of the school"; ObjectID = "ng0-dD-BfL"; */
+"ng0-dD-BfL.text" = "Name or adress of the school";
+
+/* Class = "UIViewController"; title = "Manual input"; ObjectID = "okL-H6-mB8"; */
+"okL-H6-mB8.title" = "Manual input";
+
+/* Class = "UITextField"; placeholder = "abcd.webuntis.com"; ObjectID = "ub6-B5-1mh"; */
+"ub6-B5-1mh.placeholder" = "abcd.webuntis.com";
+
+"eag-tv-DVQ.text" = "Developer";
+
+"PJ6-Zd-0wx.text" = "Timetable software";
+
+"GvH-vf-ohf.header" = "Help";
+
+"yKj-aj-iAH.text" = "How do I sign in?";
+
+"bxB-R2-MlS.text" = "I forgot my password.";
+
+"WAe-GD-Fkn.text" = "Nothing is displayed.";
+
+"Dwq-00-fG9.text" = "Licenses";
+
+"Qwj-EN-anN.title" = "Licenses";
+
+"Ook-pD-A7W.text" = "⚠️ Error: Login not found.";

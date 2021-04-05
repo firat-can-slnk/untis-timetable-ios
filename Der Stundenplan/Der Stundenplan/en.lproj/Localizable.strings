@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Der Stundenplan
+
+  Created by Firat Sülünkü on 14.03.19.
+  Copyright © 2019 Firat Sülünkü. All rights reserved.
+*/
+
+"SchoolInfo" = "If your school can not be found in the database, you can manually enter the server URL and the name of your school here.";
+"Timetable" = "Timetable";
+"Open Source Licenses" = "Open Source Licenses";
+"Developer" = "Developer";
+"Error" = "Error";
+"No internet connection" = "No internet connection";
+
+"How do I sign in?" = "How do I sign in?";
+
+"After you have chosen your school you have to login. You will receive your registration data from your school." = "After you have chosen your school you have to login. You will receive your registration data from your school.";
+
+"I forgot my password." = "I forgot my password.";
+
+"You can change your password on the WebUntis page of your school." = "You can change your password on the WebUntis page of your school.";
+
+"Nothing is displayed." = "Nothing is displayed.";
+
+"This may be because your user was not set up correctly or your school has not yet added lessons for the upcoming school year." = "This may be because your user was not set up correctly or your school has not yet added lessons for the upcoming school year.";
+
+"There is nothing for today." = "There is nothing for today.";
+
+"Please log in first."="Please log in first.";

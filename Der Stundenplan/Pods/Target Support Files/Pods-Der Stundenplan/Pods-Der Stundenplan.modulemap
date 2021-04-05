@@ -1,0 +1,6 @@
+framework module Pods_Der_Stundenplan {
+  umbrella header "Pods-Der Stundenplan-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,45 @@
+Webuntis\Models\Exams:
+    repositoryClass: Webuntis\Repositories\ExamsRepository
+    fields:
+        startDate:
+            type: mergeTimeAndDate
+            api:
+                time: startTime
+                date: date
+        endDate:
+            type: mergeTimeAndDate
+            api:
+                time: endTime
+                date: date
+        classes:
+            type: modelCollection
+            api:
+                name: classes
+                searchkey: id
+            model:
+                name: Classes
+                searchkey: id
+        teachers:
+            type: modelCollection
+            api:
+                name: teachers
+                searchkey: id
+            model:
+                name: Teachers
+                searchkey: id
+        students:
+            type: modelCollection
+            api:
+                name: students
+                searchkey: id
+            model:
+                name: Students
+                searchkey: id
+        subject:
+            type: model
+            api:
+                name: subject
+            model:
+                name: Subjects
+                searchkey: id
+

@@ -1,0 +1,15 @@
+Webuntis\Models\Teachers:
+    repositoryClass: null
+    fields:
+        name:
+            type: string
+            api:
+                name: name
+        firstName:
+            type: string
+            api:
+                name: foreName
+        lastName:
+            type: string
+            api:
+                name: longName
