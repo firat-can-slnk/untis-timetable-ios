@@ -1,0 +1,37 @@
+{
+  "name": "tfranek/webuntis",
+  "type": "library",
+  "description": "A API library that make it easy to access the Webuntis JSON RPC 2.0 API",
+  "keywords": [
+    "webuntis",
+    "webuntisapi",
+    "api",
+    "json rpc"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tobias Franek",
+      "email": "tobias.franek@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~5.6|~7.0",
+    "fguillot/json-rpc": "@stable",
+    "doctrine/cache": "^1.6",
+    "jms/serializer": "^1.2",
+    "symfony/yaml": "^2.8",
+    "symfony/console": "^2.8",
+    "symfony/filesystem": "^2.8",
+    "memio/memio": "^1.1"
+
+  },
+  "suggest": {
+    "ext-memcached": "Required for caching"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webuntis\\": "src"
+    }
+  }
+}

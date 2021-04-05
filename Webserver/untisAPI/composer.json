@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tfranek/webuntis": "^2.2"
+    }
+}
